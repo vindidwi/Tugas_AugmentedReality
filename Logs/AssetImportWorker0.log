@@ -1,0 +1,770 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 15771 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/rrdownload/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56832
+Successfully changed project path to: D:/rrdownload/My project
+D:/rrdownload/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21944]  Target information:
+
+Player connection [21944]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2123376889 [EditorId] 2123376889 [Version] 1048832 [Id] WindowsEditor(7,Vindi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21944] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 31.16 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 3.98 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/rrdownload/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7885 MB
+    Driver:   31.0.21921.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012819 seconds.
+- Loaded All Assemblies, in  0.522 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 369 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.799 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (734ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (491ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.052 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 2017ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (490ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (969ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (739ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (554ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 14.11 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 3994 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (93.5 KB). Loaded Objects now: 4795.
+Memory consumption went from 151.5 MB to 151.4 MB.
+Total: 5.844700 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.191800 ms MarkObjects: 5.105700 ms  DeleteObjects: 0.179100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4837.194669 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(a8ea0b4a1540e75488644cf0f233d497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(a8ea0b4a1540e75488644cf0f233d497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75472ba32d03150e3806a619da08aece') in 0.071942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 455
+========================================================================
+Received Import Request.
+  Time since last request: 36.462873 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(a8ea0b4a1540e75488644cf0f233d497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(a8ea0b4a1540e75488644cf0f233d497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c8a61e3270ccc8d564a0a178a5a2502') in 0.023247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 455
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.549 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.472 seconds
+Domain Reload Profiling: 4009ms
+	BeginReloadAssembly (351ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (932ms)
+		LoadAssemblies (950ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (788ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (593ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 13.79 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Unloading 4086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (4.0 MB). Loaded Objects now: 4900.
+Memory consumption went from 156.5 MB to 152.4 MB.
+Total: 7.619200 ms (FindLiveObjects: 0.660500 ms CreateObjectMapping: 0.270100 ms MarkObjects: 4.812100 ms  DeleteObjects: 1.874100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Decorators.cs: 4533f6715dc3f8cdabbd37ff77d1dad7 -> 
+  custom:scripting/monoscript/fileName/GlobalSettings.cs: e5eb35b80bdfaee4ead1e1630fd77998 -> 
+  custom:scripting/monoscript/fileName/PostProcessEffectBaseEditor.cs: 972bdf00f442be0d879dcb6868e25c8e -> 
+  custom:scripting/monoscript/fileName/PostProcessRenderContext.cs: 9e034c8bf7d42a1d6c2d4339915eccb0 -> 
+  custom:scripting/monoscript/fileName/Spline.cs: 7876820de12ed89d33ad838af99a030e -> 
+  custom:scripting/monoscript/fileName/ColorGrading.cs: ef67493fb3cf9676ba5f25862510a595 -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: e0eb5d32b3aade2e0ce8680b00ac2b78 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Postprocessing.Runtime: 4111dfb3ca22971d5e501d77871ae588 -> 
+  custom:scripting/monoscript/fileName/TemporalAntialiasing.cs: 71e40fdab49d34f4e07f83936454d904 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusion.cs: 7a27923f9312611f0b2898a72e3ee96a -> 
+  custom:scripting/monoscript/fileName/PostProcessDebugLayer.cs: 6d8a99809398beddf11f92dfbb0e6ad4 -> 
+  custom:scripting/monoscript/fileName/ColorUtilities.cs: 47918ebfa890b947a816b80444ee2882 -> 
+  custom:scripting/monoscript/fileName/ParameterOverride.cs: 5475497db741ca919df708e5019e593d -> 
+  custom:scripting/monoscript/fileName/TextureLerper.cs: 973e800795f77d61d647ea0c3f0cf284 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Postprocessing.Editor: 250861ca8abac831ebd0679527bf8048 -> 
+  custom:scripting/monoscript/fileName/Vignette.cs: e0b99ac31b7575ef776e7be56647abb0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: 64cce655bf722c851048e2ebbf401a7b -> 
+  custom:scripting/monoscript/fileName/DefaultPostProcessEffectEditor.cs: 06a1d8fcea7725e08b95f21cc15fd0a1 -> 
+  custom:scripting/monoscript/fileName/PostProcessLayer.cs: aa288976158dcd4c24041d5304f25d07 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MaxAttribute.cs: d661645ab8c724f24b3e19978e87b44c -> 
+  custom:scripting/monoscript/fileName/PostProcessDebugEditor.cs: 1a0488d8742bf880cc7334e53e2cc73d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SerializedParameterOverride.cs: 5e4deaf96895d013d32a8e84ec179f8e -> 
+  custom:scripting/monoscript/fileName/MeshUtilities.cs: dc5356b699afd34cf9728f4d65b476a0 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionEditor.cs: 61e5422c29b8f52188d508eb7d382167 -> 
+  custom:scripting/monoscript/fileName/FastApproximateAntialiasing.cs: bf5588b2deec2689a812a7d2eacd9bd5 -> 
+  custom:scripting/monoscript/fileName/MotionBlur.cs: 823914e335803785a19e5990c6ab2911 -> 
+  custom:scripting/monoscript/fileName/DefineSetter.cs: 292ba08e52064b1a72f8d4bb04301dd3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShaderIDs.cs: 96024f1f873475da65a783f1404f9117 -> 
+  custom:scripting/monoscript/fileName/PostProcessEditorAttribute.cs: 672a58b4d5bab60112487a31c361c481 -> 
+  custom:scripting/monoscript/fileName/LensDistortionEditor.cs: dee045d29944d55e8040435a58a7ce90 -> 
+  custom:scripting/monoscript/fileName/MotionBlurEditor.cs: 3bd8d3e7e9a7ea94beb2e5517b62d27b -> 
+  custom:scripting/monoscript/fileName/Dithering.cs: 3014fffaa718d0ad6dd2c7bb7956ed46 -> 
+  custom:scripting/monoscript/fileName/DecoratorAttribute.cs: be5bd39119e1a41ea1a019fdb3818a3f -> 
+  custom:scripting/monoscript/fileName/DisplayNameAttribute.cs: 935a6ac504eb8a852fba40cbcae9292c -> 
+  custom:scripting/monoscript/fileName/PostProcessEffectSettings.cs: 2ab9d33170e863b1a9c8a9079cdd12aa -> 
+  custom:scripting/monoscript/fileName/Fog.cs: 07e271953e2bcf8513b6a72a2737e767 -> 
+  custom:scripting/monoscript/fileName/PostProcessManager.cs: 28ef7780d543a8111635e1f5051383d0 -> 
+  custom:scripting/monoscript/fileName/VolumeFactory.cs: cc77136700c9e1ff894d234886ccb852 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/PostProcessEvent.cs: 8fb6e54ff2cf1a8be7ecdd01fbdd78f8 -> 
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: 8dea8f77de7bd03137cc578af1ea6656 -> 
+  custom:scripting/monoscript/fileName/TrackballDecorator.cs: 6a2b6c747937d12d8d81be8f5b21fbd2 -> 
+  custom:scripting/monoscript/fileName/MultiScaleVO.cs: d4c4732956ffb536e016475d75f04c43 -> 
+  custom:scripting/monoscript/fileName/CubeLutAssetFactory.cs: db1961888d7cabf6be94b37e3b663de4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PostProcessVolumeEditor.cs: 7aae71821512dcac422c45dc773293c3 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberration.cs: 4d59e57f8324f5f986e16678ed451410 -> 
+  custom:scripting/monoscript/fileName/VignetteEditor.cs: 345736fc911c5e8ab23e579751a40e4a -> 
+  custom:scripting/monoscript/fileName/Styling.cs: d1c4aa14ff93670753edfbb93fc91bfe -> 
+  custom:scripting/monoscript/fileName/PostProcessEffectRendererExtensions.cs: e953624d113e7e1739c702512603957d -> 
+  custom:scripting/monoscript/fileName/ScalableAO.cs: 2f29d71d59b754086c809cfee1cdce34 -> 
+  custom:scripting/monoscript/fileName/PostProcessLayerEditor.cs: d16de665ece05cd6e27dcc8d7bac4b9a -> 
+  custom:scripting/monoscript/fileName/MinMaxAttribute.cs: a4b6ac8a4377612c7135a60f905792f1 -> 
+  custom:scripting/monoscript/fileName/SubpixelMorphologicalAntialiasing.cs: 02dcb8839824addec278047da0509aea -> 
+  custom:scripting/monoscript/fileName/BaseEditor.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 3043bf57519b71f64b7a6de970c2487b -> 
+  custom:scripting/monoscript/fileName/PostProcessEffectRenderer.cs: 577c5acf8157ecea944bb95c8c6d9a95 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TextureFormatUtilities.cs: ba58c57cfaabc0f8201a9ca6902fcb23 -> 
+  custom:scripting/monoscript/fileName/PostProcessVolume.cs: 3883cef4be0567c54caf457a416a2095 -> 
+  custom:scripting/monoscript/fileName/LightMeterMonitor.cs: a897ae0c731cb153281aea9ecd0efb03 -> 
+  custom:scripting/monoscript/fileName/ColorGradingEditor.cs: 25838050e3e1f12ef51713a5dcf60349 -> 
+  custom:scripting/monoscript/fileName/AttributeDecorator.cs: 39b465f08cd0a5df82fc2ef70b766ca2 -> 
+  custom:scripting/monoscript/fileName/AutoExposureEditor.cs: dfd15824649ea346b717bc72a871d75b -> 
+  custom:scripting/monoscript/fileName/LensDistortion.cs: b7963bb1da21ba484a7b59b9f6ea3aec -> 
+  custom:scripting/monoscript/fileName/ResourceAssetFactory.cs: bf6acc988648d854bb3c5751325d0d0a -> 
+  custom:scripting/monoscript/fileName/PostProcessProfileEditor.cs: 1dcd55858a4126cb33b0f2de53c74fbe -> 
+  custom:scripting/monoscript/fileName/PostProcessDebug.cs: a653e9b773649e7452b035b4ce1dae82 -> 
+  custom:scripting/monoscript/fileName/PostProcessAttribute.cs: e125947bf72ce7382f3b16f75797c897 -> 
+  custom:scripting/monoscript/fileName/Grain.cs: 43f09a87a88d9937fbb9c4dbf3d5508e -> 
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 6fd024409d6e9db8d4c2c4e26430c2ad -> 
+  custom:scripting/monoscript/fileName/PostProcessProfile.cs: f6dc030e2e953b2ed0eca334cce5d5cf -> 
+  custom:scripting/monoscript/fileName/ProfileFactory.cs: f835845dfebfed501813f60a1cb006a3 -> 
+  custom:scripting/monoscript/fileName/PostProcessEffectEditor.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CubeLutAssetImporter.cs: 5e94ca4c74dad11cc8880f33d0ba9efb -> 
+  custom:scripting/monoscript/fileName/PostProcessBundle.cs: f610f855c8ae8b896b5084e85ede373e -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionsEditor.cs: 59c13ba25de6098e70bafe8be94f609a -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/RuntimeUtilities.cs: 76964d36e50cc48cfa29643bdde8d9a5 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: 6f6d579a64201b97313a62a1e91b3575 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AutoExposure.cs: 0e7c21b17f53209ee8c5c61ab59d7835 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: cb70c6437b976f01b752cd219cc47f32 -> 
+  custom:scripting/monoscript/fileName/PropertySheetFactory.cs: cfc4667cc03e44252fafe18d99f24b25 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 53a52fb113757c42f9c516115bd845ca -> 
+  custom:scripting/monoscript/fileName/HaltonSeq.cs: a7590e55d6fae5328a1c395a2473d0cf -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: a3e7473301291585f4cca024ce307406 -> 
+  custom:scripting/monoscript/fileName/DepthOfField.cs: d62178d8b5619f59fcdd6d24617ef5fd -> 
+  custom:scripting/monoscript/fileName/BloomEditor.cs: c341bb26b40744c3a5c2a142ac3e1051 -> 
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: 609651ee3f98f206575f684e9cce655d -> 
+  custom:scripting/monoscript/fileName/HableCurve.cs: f244b24d6e7c556a2de06e25b0bbf4c1 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PropertySheet.cs: e6bb03169eca9d33ea794a47ad6ce213 -> 
+  custom:scripting/monoscript/fileName/TargetPool.cs: 6d29560228134c933c12fb1c113fb6ef -> 
+  custom:scripting/monoscript/fileName/LogHistogram.cs: bab913d888834a1a8572eb834acec97c -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflections.cs: 8afa07200328ddfcb2536d4180c62536 -> 
+  custom:scripting/monoscript/fileName/CurveEditor.cs: f5e872b2a5a6427a1785818cb10d95d1 -> 
+  custom:scripting/monoscript/fileName/PostProcessResources.cs: 5089c17a701ba9b714a1f3d25fb9a9b0 -> 
+  custom:scripting/monoscript/fileName/EffectListEditor.cs: 1ecdb4094d9e64024d6eb7725a86197b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286.801697 seconds.
+  path: Assets/ithappy/Food_FREE
+  artifactKey: Guid(5d8b9cd43c9b5284890199f1b243f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE using Guid(5d8b9cd43c9b5284890199f1b243f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c6152fb9d209ea8ed01a8204d66289d') in 0.001980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.523261 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs
+  artifactKey: Guid(39a0443a5a87c3240a1cb54279372997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs using Guid(39a0443a5a87c3240a1cb54279372997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39d38ec16e2f168d1fb6853384ce60e1') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.107413 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/apple_001.prefab
+  artifactKey: Guid(86ad82f45da8e2341824acdfa0861d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/apple_001.prefab using Guid(86ad82f45da8e2341824acdfa0861d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8dc3dfb363487f1b13055c54ba05185') in 0.137540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/yogurt_001.prefab
+  artifactKey: Guid(6012fccf4ebae9e4cb47349aa82f193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/yogurt_001.prefab using Guid(6012fccf4ebae9e4cb47349aa82f193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '28b91344bcab57e0bfd6db6595ffdab7') in 0.017392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/ice_cream_dish_001.prefab
+  artifactKey: Guid(22f70e163a75b0643b7e1dfc8599f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/ice_cream_dish_001.prefab using Guid(22f70e163a75b0643b7e1dfc8599f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e87a65aee8cd1f02842fa87402c333e') in 0.017963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/burger_001.prefab
+  artifactKey: Guid(c7232173ec62a4648bc000bf0b5baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/burger_001.prefab using Guid(c7232173ec62a4648bc000bf0b5baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5d83766706255b921c4237bec0732b5') in 0.020251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/drink_001.prefab
+  artifactKey: Guid(b542f155b868c0e40834cb1333522ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/drink_001.prefab using Guid(b542f155b868c0e40834cb1333522ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8e2510cc93d05e82757e598dcfb746c') in 0.017603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/wineglass_001.prefab
+  artifactKey: Guid(2a40e4178ccfbc34bbd02a2aa5924c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/wineglass_001.prefab using Guid(2a40e4178ccfbc34bbd02a2aa5924c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abe7fc18c37942c50cb37ff6fca168fd') in 0.017374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/coffee_002.prefab
+  artifactKey: Guid(e78c24f1f6682d048beb3ea4986f41bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/coffee_002.prefab using Guid(e78c24f1f6682d048beb3ea4986f41bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1d734f0c58bf5fc9268ca1e88e7eb04') in 0.015734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/sandwich_001.prefab
+  artifactKey: Guid(894ad6ec8aaa7f14d8d6cea5f753932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/sandwich_001.prefab using Guid(894ad6ec8aaa7f14d8d6cea5f753932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '073a2598eae906a8e4279c883cf43bdc') in 0.015845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/fish_001.prefab
+  artifactKey: Guid(19778a1cec25085409918a09efe96dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/fish_001.prefab using Guid(19778a1cec25085409918a09efe96dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04c4f5b3ca6d7532a328c4eac6021f65') in 0.011454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/tomato_001.prefab
+  artifactKey: Guid(31ec181664c141943b9c7bee2d073cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/tomato_001.prefab using Guid(31ec181664c141943b9c7bee2d073cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '99c7c581e88753aa7ed442776ce75c6a') in 0.011152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/Plate_001.prefab
+  artifactKey: Guid(4a4c3090dafff744191822abad106463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/Plate_001.prefab using Guid(4a4c3090dafff744191822abad106463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '651498987458574e35ead0e32cc83b39') in 0.015045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/drink_004.prefab
+  artifactKey: Guid(c2004775e0ce89f48af3e88e6f9555a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/drink_004.prefab using Guid(c2004775e0ce89f48af3e88e6f9555a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3f013c6c67704fce2ca38d28e704eef') in 0.018093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.156854 seconds.
+  path: Assets/ithappy/Food_FREE/Materials/Color.mat
+  artifactKey: Guid(dcc2448ad07367a4da606a55f93d7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Materials/Color.mat using Guid(dcc2448ad07367a4da606a55f93d7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '791055baf23de3e169ac645eb59c4f5d') in 0.081524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 139.597512 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/apple_001.prefab
+  artifactKey: Guid(86ad82f45da8e2341824acdfa0861d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/apple_001.prefab using Guid(86ad82f45da8e2341824acdfa0861d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7b118ee026945efeb31102de52c6cec1') in 0.007431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.005934 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/chips_001.prefab
+  artifactKey: Guid(90eef2986e5621946bc6c49fa7c1bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/chips_001.prefab using Guid(90eef2986e5621946bc6c49fa7c1bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '51574b3b99221ddd0c02c7cd160137ba') in 0.008740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.007846 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/coffee_001.prefab
+  artifactKey: Guid(556e828522c2d664dacf6dde91f68efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/coffee_001.prefab using Guid(556e828522c2d664dacf6dde91f68efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bf4a3789e66486fb16a774a6eb1664e') in 0.009107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/yogurt_001.prefab
+  artifactKey: Guid(6012fccf4ebae9e4cb47349aa82f193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/yogurt_001.prefab using Guid(6012fccf4ebae9e4cb47349aa82f193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe42fb993d1ba2fdad2b5cfc71f378ff') in 0.011971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/ice_cream_dish_001.prefab
+  artifactKey: Guid(22f70e163a75b0643b7e1dfc8599f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/ice_cream_dish_001.prefab using Guid(22f70e163a75b0643b7e1dfc8599f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2376b63fd22d158fde72645bd4676e7') in 0.026113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/burger_001.prefab
+  artifactKey: Guid(c7232173ec62a4648bc000bf0b5baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/burger_001.prefab using Guid(c7232173ec62a4648bc000bf0b5baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89c9e19abb06bde325643d9b0bb84c95') in 0.024990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/drink_002.prefab
+  artifactKey: Guid(51d6319d2b9742640a6b2bb01da1dc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/drink_002.prefab using Guid(51d6319d2b9742640a6b2bb01da1dc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '841c813cefd8ca933d9066622cf89a5c') in 0.018888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/drink_001.prefab
+  artifactKey: Guid(b542f155b868c0e40834cb1333522ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/drink_001.prefab using Guid(b542f155b868c0e40834cb1333522ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e281068e7eaabbb60d46ac65321cfdaa') in 0.017203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/wineglass_001.prefab
+  artifactKey: Guid(2a40e4178ccfbc34bbd02a2aa5924c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/wineglass_001.prefab using Guid(2a40e4178ccfbc34bbd02a2aa5924c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b3505aa1f7c070cb3ac8d69d2376886') in 0.014011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/coffee_002.prefab
+  artifactKey: Guid(e78c24f1f6682d048beb3ea4986f41bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/coffee_002.prefab using Guid(e78c24f1f6682d048beb3ea4986f41bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96a44a59fcc2018ae99e117c0b2e2bf0') in 0.008575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/carrot_001.prefab
+  artifactKey: Guid(60568abbed781d643a95fe465ddf7d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/carrot_001.prefab using Guid(60568abbed781d643a95fe465ddf7d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb359165183bb30f48242e0413fe7b51') in 0.009145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/sausages_001.prefab
+  artifactKey: Guid(d1f70b40c48b823429bc0d9adc4c0a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/sausages_001.prefab using Guid(d1f70b40c48b823429bc0d9adc4c0a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '28a7439de7c36bb98d0bba60dbdb46e7') in 0.008422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/drink_003.prefab
+  artifactKey: Guid(e3a10d9641710d041a51eb9a528a6e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/drink_003.prefab using Guid(e3a10d9641710d041a51eb9a528a6e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce0a128c376f67ab0306ac6cd2d00e9c') in 0.009597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/sushi_dish_001.prefab
+  artifactKey: Guid(33bd3696e4ffca649b47370f28ae1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/sushi_dish_001.prefab using Guid(33bd3696e4ffca649b47370f28ae1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9fcfce871f19b798d217c1ef3bf8474b') in 0.011143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/eggplant_001.prefab
+  artifactKey: Guid(24598e7b217c94e4dbe0f0024ed2125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/eggplant_001.prefab using Guid(24598e7b217c94e4dbe0f0024ed2125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af5fe74ad3588bb1fe628e984cab7174') in 0.013027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ithappy/Food_FREE/Prefabs/wineglass_002.prefab
+  artifactKey: Guid(4be770614820e82428bff74e713e0134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Prefabs/wineglass_002.prefab using Guid(4be770614820e82428bff74e713e0134) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db9de60f81410ba80258c57b2a86cb3e') in 0.018100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 21.428434 seconds.
+  path: Assets/ithappy/Food_FREE/Meshes/banana_001.fbx
+  artifactKey: Guid(75def7bcd833c6d48b914c8b78f48891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Meshes/banana_001.fbx using Guid(75def7bcd833c6d48b914c8b78f48891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d830ba18d2ec2aefd4e6c2defafb368') in 0.492291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ithappy/Food_FREE/Meshes/fork_001.fbx
+  artifactKey: Guid(edecf380fec20c842b4edd08d5bec47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Meshes/fork_001.fbx using Guid(edecf380fec20c842b4edd08d5bec47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '784f6c523aa6d62c9901bc7cc3c260a0') in 0.017074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ithappy/Food_FREE/Meshes/coffee_001.fbx
+  artifactKey: Guid(874cc5bc24933b042abbece65c83575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Meshes/coffee_001.fbx using Guid(874cc5bc24933b042abbece65c83575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13b39cb77217ad0fb630c1e4bb1ea909') in 0.015241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Meshes/drink_003.fbx
+  artifactKey: Guid(a338b4947949ef741aed5ee7b2fb2cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Meshes/drink_003.fbx using Guid(a338b4947949ef741aed5ee7b2fb2cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '76428e0c8656f6cdf2ec8b4060aa41d6') in 0.015467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Meshes/Plate_001.fbx
+  artifactKey: Guid(552087194613fe149b2e55f682d0029d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Meshes/Plate_001.fbx using Guid(552087194613fe149b2e55f682d0029d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '79445893dee405636d282005d3e23391') in 0.017635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Food_FREE/Meshes/yogurt_001.fbx
+  artifactKey: Guid(fcc9a477b25cb8a49a54aeb8fd4e21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Meshes/yogurt_001.fbx using Guid(fcc9a477b25cb8a49a54aeb8fd4e21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5804952e6462c1de5eac3924d01fcca6') in 0.013963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ithappy/Food_FREE/Meshes/drink_001.fbx
+  artifactKey: Guid(405951cf51ef9e5449650a260d9c7d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Food_FREE/Meshes/drink_001.fbx using Guid(405951cf51ef9e5449650a260d9c7d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '319a49e16311c54bb4e3719ab87bfd8a') in 0.017926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 62.653819 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/BarcodeOutlineMaterial_URP.mat
+  artifactKey: Guid(94257c524bead472cb0a3e2d584e093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/BarcodeOutlineMaterial_URP.mat using Guid(94257c524bead472cb0a3e2d584e093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '458adab05d22011fa3c43d1d291e9672') in 0.015959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/BrightTexture_URP.mat
+  artifactKey: Guid(f66ab814ac6774d39adf7367c82dd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/BrightTexture_URP.mat using Guid(f66ab814ac6774d39adf7367c82dd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1dd97900cc03e4c7e7df2d70b039bad6') in 0.007720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
